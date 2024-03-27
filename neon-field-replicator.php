@@ -54,6 +54,7 @@ foreach ($custom_fields_assoc as $field) {
 }
 //post new fields to reach target number
 $array_to_post = [];
+$displayed_response = '';
 foreach($fields_to_multiply as $detail => $base_field_obj) {
     if ($detail == 'NO_DETAIL') {
         $detail = '';
@@ -83,7 +84,7 @@ foreach($fields_to_multiply as $detail => $base_field_obj) {
             false, 
             $post_context
         );
-        $displayed_response = "\n\n".$field_to_post['name']." (".$field_to_post['id'].") : " .$post_response;
+        $displayed_response .= "\n\n".$field_to_post['name']." (".$field_to_post['id'].") : " .$post_response;
     }
 }
 echo '<h1>Response from Neon API:</h1><br/><pre>' . $displayed_response . '</pre>';
