@@ -25,8 +25,8 @@ Finally, run the script from your [command line](https://www.php.net/manual/en/f
 
 ### Copy a single field
 
-This tool can be used to create numbered copies of a single custom field until they reach the target number. The original 'prototype' custom field itself can be either numbered or not numbered. For example, "Twitter Handle" could be used to create "Twitter Handle 2", "Twitter Handle 3", etc. 
+If you are replicating one field, then your field name should just your field marker (e.g. "Event") followed by the number 1, separated by a space ("Event 1"). The copies created will include include the field marker followed by the incrementing numbers, separated by a space (e.g. "Event 2" "Event 3" etc.)
 
 ### Copy groups of fields
 
-This tool can be used to simulate master-detail relationships such as in the "Job Listing" example mentioned above, where the field marker ("Job Listing") and number preface a different detail in each of the prototype custom fields ("Title", "Countries", "Type", etc.). The format to follow when designing these prototypes is "[Field Marker] [Number] [Detail]", with spaces between each component (e.g. "Job Listing 1 Title"). Omitting 
+This tool can be used to simulate master-detail relationships such as in the "Job Listing" example mentioned above, where the field marker ("Job Listing") and number preface a different detail in each of the prototype custom fields ("Title", "Countries", "Type", etc.). The format to follow when designing these prototypes is "[Field Marker] [Number] [Detail]", with spaces between each component (e.g. "Job Listing 1 Title").  
