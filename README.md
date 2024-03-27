@@ -19,7 +19,7 @@ Your newly created "copy" fields will be numbered; how high should the numbers g
 
 Keep in mind that if some of your fields are already numbered in this way, then the Neon Field Replicator will start from there and only make incremental copies until the target number is reached; if your field marker is "Job Listing" and one of your existing custom fields is marked "Job Listing 6" then copies of that field will only be made if your target number is greater than 6.
 
-Finally, run the script from your [command line](https://www.php.net/manual/en/features.commandline.php) or access the page in your browser through a [running php server](https://www.wikihow.com/Run-a-PHP-File-in-a-Browser).
+Finally, run the script from your [command line](https://www.php.net/manual/en/features.commandline.php) or access the page in your browser through a [running php server](https://www.wikihow.com/Run-a-PHP-File-in-a-Browser). Upon completing the operation, the script will display the responses received from the Neon CRM API for each of the custom fields that the script attempted to create.
 
 ## Features
 
