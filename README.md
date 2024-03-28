@@ -25,7 +25,7 @@ Finally, run the script from your [command line](https://www.php.net/manual/en/f
 
 ### Copy a single field
 
-If you are replicating one field, then your field name should just your field marker (e.g. "Event") followed by the number 1, separated by a space ("Event 1"). The copies created will include include the field marker followed by the incrementing numbers, separated by a space (e.g. "Event 2" "Event 3" etc.)
+If you are replicating one field, then your field name should just be your field marker (e.g. "Event") followed by the number 1, separated by a space ("Event 1"). The copies created will include include the field marker followed by the incrementing numbers, separated by a space (e.g. "Event 2" "Event 3" etc.)
 
 ### Copy groups of fields
 
