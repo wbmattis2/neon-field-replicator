@@ -30,3 +30,13 @@ If you are replicating one field, then your field name should just your field ma
 ### Copy groups of fields
 
 This tool can be used to simulate master-detail relationships such as in the "Job Listing" example mentioned above, where the field marker ("Job Listing") and number preface a different detail in each of the prototype custom fields ("Title", "Countries", "Type", etc.). The format to follow when designing these prototypes is "[Field Marker] [Number] [Detail]", with spaces between each component (e.g. "Job Listing 1 Title").  
+
+## License
+
+Copyright 2024 Benny Mattis
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
